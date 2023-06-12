@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface TimelineItemProps {
     year: string,
     title: string,

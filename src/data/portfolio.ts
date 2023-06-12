@@ -1,4 +1,14 @@
-export default [
+type PortfolioType = {
+  id: number,
+  title: string,
+  img: string,
+  stack: string[],
+  link: string
+}
+
+let portfolio: PortfolioType[] = []
+
+export default portfolio = [
   {
     id: 1,
     title: "Nursery Management App",

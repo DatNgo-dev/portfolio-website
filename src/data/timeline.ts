@@ -1,4 +1,14 @@
-export default [
+type TimelineItemType = {
+  id: number,
+  year: string,
+  title: string,
+  duration: string,
+  details: string
+}
+
+let timelineItem: TimelineItemType[] = []
+
+export default timelineItem = [
   {
     id: 1,
     year: "Today",
